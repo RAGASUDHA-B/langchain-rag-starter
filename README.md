@@ -30,5 +30,3 @@ data/: Folder where you store the documents the AI should "read."
 
 ---
 
-### How this relates to your Sources
-While RAG and LangChain are separate concepts, you could eventually use the **Transport Layer** documentation in your sources [1, 3] as the "data" for your RAG application. This would allow you to build an AI that can answer specific technical questions about **TCP sequence numbers** [4] or **UDP's connectionless nature** [5] based directly on your provided text.
