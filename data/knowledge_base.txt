@@ -1,0 +1,20 @@
+Network Protocols and the Transport Layer
+Protocol Definition: A set of rules governing communication between entities in a system, establishing standards for formatting, error detection, and routing
+.
+The OSI Model: Consists of seven layers: Physical, Data Link, Network, Transport, Session, Presentation, and Application
+.
+The Transport Layer: Ensures reliable and transparent data transfer, breaks data into segments, provides error detection, and manages sessions
+.
+TCP (Transmission Control Protocol): A connection-oriented, reliable protocol that treats data as a continuous bitstream
+.
+TCP Headers: Includes Source Port, Destination Port, Sequence Number, Acknowledgment Number, Control Flags (SYN, ACK, FIN, RST), and Checksum
+.
+TCP Process: Uses a three-way handshake for connection, manages flow control, and handles congestion through "Slow Start" and "Congestion Avoidance"
+.
+Reliability: Handles out-of-order packets using sequence numbers and re-transmits missing data based on acknowledgments
+.
+UDP (User Datagram Protocol): A connectionless, lightweight protocol prioritized for speed and efficiency over reliability
+.
+UDP Headers: Includes Source Port, Destination Port, Length, and Checksum
+.
+UDP Process: Sends individual datagrams without prior synchronization; the receiver handles any necessary reordering at the application layer
